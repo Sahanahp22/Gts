@@ -1,7 +1,6 @@
 provider "aws" {
-  region     = "eu-north-1"
-  access_key = "AKIAYHJANAN7JTINU5HC"    
-  secret_key = "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" 
+  region = "eu-south-1"
+  # Access and secret keys are automatically picked from environment variables or AWS credentials file
 }
 
 resource "aws_vpc" "main" {
